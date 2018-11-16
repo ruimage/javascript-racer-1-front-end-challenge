@@ -71,7 +71,7 @@ updatePlayerPosition('player1', 10);
 
 ### Release 2: Привязка к нажатию на кнопку.
 
-Теперь делаем игру интерактивной. Привяжите свою функцию на событие [keyup][]. Ознакомьтесь и с другими событиями [keydown][], [keypress][]. Почему лучше использовать keyup?
+Теперь делаем игру интерактивной. Привяжите свою функцию на событие `keyup`. Ознакомьтесь и с другими событиями `keydown`, `keypress`. Почему лучше использовать keyup? [Документация по keyboard events][keyboard events]
 
 Привязывать событие в данном случае лучше всего к `document`:
 
@@ -89,17 +89,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
 ## Resources
 
 * [normalize.css][]
-* [Mozilla documentation for: keyup][keyup]
-* [Mozilla documentation for: keydown][keydown]
-* [Mozilla documentation for: keypress][keypress]
+* [Keyboard events][keyboard events]
 
 
 
 [normalize.css]: http://necolas.github.com/normalize.css/
-[keyup]: http://api.jquery.com/keyup/
-[keydown]: http://api.jquery.com/keydown/
-[keypress]: http://api.jquery.com/keypress/
+[keyboard events]: https://developer.mozilla.org/ru/docs/Web/API/KeyboardEvent
