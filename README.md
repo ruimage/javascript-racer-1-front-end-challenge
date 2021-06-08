@@ -55,7 +55,7 @@
 
 Обновление позиции игрока можно сделать добавлением класса `active` к нужной ячейке таблицы `td`. Но это лишь один из вариантов реализации - вы можете использовать свой, это было бы даже лучше.
 
-Ознакомьтесь с [normalize.css](https://github.com/necolas/normalize.css/) - полезная библиотека, которая поможет вам обеспечить кроссбраузерность в изначальных стилях. Также вы можете поискать аналоги.
+Ознакомьтесь с [normalize.css][] - полезная библиотека, которая поможет вам обеспечить кроссбраузерность в изначальных стилях. Также вы можете поискать аналоги.
 
 
 ### Release 1: Добавим JavaScript
@@ -96,5 +96,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-[normalize.css]: http://necolas.github.com/normalize.css/
+[normalize.css]: https://github.com/necolas/normalize.css/
 [keyboard events]: https://developer.mozilla.org/ru/docs/Web/API/KeyboardEvent
